@@ -12,7 +12,8 @@ import { IconArrow, IconInstagram } from "@/components/Icons";
 import { company, faqs, nav, projects, stats, whatsappLink } from "@/lib/data";
 import { asset } from "@/lib/base-path";
 
-const wrap = "mx-auto w-full max-w-[90rem] px-4 md:px-10";
+// Conteúdo limitado a 1160px (o padding fica fora dessa largura)
+const wrap = "mx-auto w-full max-w-[calc(1160px+2rem)] px-4 md:max-w-[calc(1160px+4rem)] md:px-8";
 
 export default function Home() {
   return (
@@ -335,7 +336,7 @@ export default function Home() {
 
       <footer className="bg-ink pb-10 pt-16 text-paper">
         <div className={wrap}>
-          <p className="text-[clamp(2.75rem,11vw,10rem)] font-semibold uppercase leading-none tracking-[-0.05em] text-paper/90">
+          <p className="text-[clamp(2.5rem,9.5vw,8.5rem)] font-semibold uppercase leading-none tracking-[-0.05em] text-paper/90">
             Renata Atanasio
           </p>
           <div className="mt-10 flex flex-col gap-8 border-t border-paper/15 pt-8 md:flex-row md:items-start md:justify-between">

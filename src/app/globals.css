@@ -27,7 +27,7 @@ section[id] {
 }
 
 .t-display {
-  font-size: clamp(2.75rem, 7.4vw, 7rem);
+  font-size: clamp(2.75rem, 7.4vw, 6.25rem);
   line-height: 0.98;
   font-weight: 500;
   letter-spacing: -0.045em;
