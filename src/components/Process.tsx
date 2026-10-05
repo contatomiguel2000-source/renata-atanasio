@@ -21,7 +21,7 @@ export function ProcessSteps() {
             }`}
           >
             <span className={`text-[3.5rem] font-light leading-none tracking-[-0.04em] ${on ? "text-clay" : "text-clay/70"}`}>
-              //{String(i + 1).padStart(2, "0")}
+              {`//${String(i + 1).padStart(2, "0")}`}
             </span>
             <span className="t-h3 mt-auto pt-10">{p.title}</span>
             <span className={`mt-2 text-[0.9rem] leading-relaxed ${on ? "text-paper/75" : "text-taupe"}`}>{p.text}</span>

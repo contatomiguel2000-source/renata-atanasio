@@ -25,7 +25,7 @@ export function ServicesSlider() {
             className="w-[82%] shrink-0 snap-start border-l border-paper/20 px-5 pb-2 sm:w-[46%] lg:w-1/3"
           >
             <div data-card style={{ paddingTop: `${(i % 3) * 1.5}rem` }}>
-              <p className="text-sm text-paper/60">//{String(i + 1).padStart(2, "0")}</p>
+              <p className="text-sm text-paper/60">{`//${String(i + 1).padStart(2, "0")}`}</p>
               <h3 className="t-h3 mt-1 text-paper">{s.title}</h3>
               <div className="relative mt-5 aspect-[4/3] overflow-hidden rounded-sm">
                 <Image
