@@ -79,6 +79,7 @@ export default function Home() {
               <Reveal className="relative aspect-[4/5] overflow-hidden rounded-sm md:col-span-5 md:col-start-2">
                 <Image
                   src={asset("/img/renata-milao.webp")}
+                  unoptimized
                   alt="Renata Atanasio na Milan Design Week 2026"
                   fill
                   sizes="(min-width: 768px) 40vw, 100vw"
@@ -89,6 +90,7 @@ export default function Home() {
                 <div className="relative aspect-[9/11] w-2/3 overflow-hidden rounded-sm md:w-3/4">
                   <Image
                     src={asset("/img/renata-escada.webp")}
+                    unoptimized
                     alt="Renata Atanasio, designer de interiores"
                     fill
                     sizes="(min-width: 768px) 30vw, 66vw"
