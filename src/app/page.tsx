@@ -232,7 +232,7 @@ export default function Home() {
                   <Image src={asset("/img/obra-02.webp")} alt="Renata acompanhando a obra" fill sizes="16rem" className="object-cover" />
                 </div>
                 <div className="relative aspect-[4/5] overflow-hidden rounded-sm">
-                  <Image src={asset("/img/obra-07.webp")} alt="Renata na etapa de ambientação" fill sizes="16rem" className="object-cover" />
+                  <Image src={asset("/img/renata-ambientacao.webp")} alt="Renata na etapa de ambientação" fill sizes="16rem" unoptimized className="object-cover" />
                 </div>
               </div>
             </Reveal>
